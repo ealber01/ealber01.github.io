@@ -1,24 +1,74 @@
 body {
-    background-color: #eddede;
+	background-color: #ccbebe;
+	/* Margin bottom by footer height */
+	padding-bottom: 105px;
 }
 
 h1 {
-    color: white;
+    color: 4E4446;
     margin-left: 100px;
-    font-family: 'Candal', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 70px;
+    line-height: 100px;
+    font-weight: 600;
 }
 
 h2 {
     color: grey;
     margin-left: 100px;
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: grey;
+    margin-left: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
     font-weight: 100;
     font-style: italic;
 }
 
-a {
+h4{
+	color: white;
+    margin-left: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+ul{
+	color: white;
+    margin-left: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    list-style: none;
+}
+
+li{
+	color: grey;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+
+
+.licon:hover{
+	background-color: grey;
+	color: white;
+	height: 50px;
+	width: 50px;
+	border-radius: 80%;
+}
+
+.links{
 	line-height: 200px;
     color: white;
     margin-left: 100px;
@@ -27,55 +77,40 @@ a {
     font-weight: 100;
 }
 
-a:hover{
+.links:hover{
 	background-color: grey;
 	color: white;
 	border: 2px solid grey;
 	border-radius: 50%;
 }
 
+
 .propic {
 	align: middle;
     border-radius: 50%;
     max-width: 100%;
     height: auto;
-    width: auto\9; 
 }
 
 .licon {
+	align: middle;
     max-width: 100%;
     height: auto;
-    width: auto\9; 
+    margin-top: 50px;
 }
 
 .liconcontainer{
-	margin-left: 300px;
+	display: flex;
+}
+
+.flex {
+	flex-grow: 1;
 }
 
 .propiccontainer{
 	padding-right: 100px;
 }
 
-.header-cont {
-    width:100%;
-    position:fixed;
-    top:0px;
-}
-.header {
-    height:50px;
-    background:#F0F0F0;
-    border:1px solid #CCC;
-    width:960px;
-    margin:0px auto;
-}
-.content {
-    width:960px;
-    background: #F0F0F0;
-    border: 1px solid #CCC;
-    height: 2000px;
-    margin: 70px auto;
-}
-
-.scrollcontainer{
-
+#footer {
+	height: 80px;
 }
