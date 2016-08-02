@@ -10,11 +10,12 @@ h1 {
 }
 
 h2 {
-    color: white;
+    color: grey;
     margin-left: 100px;
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 100;
+    font-style: italic;
 }
 
 a {
@@ -22,15 +23,15 @@ a {
     color: white;
     margin-left: 100px;
     font-family: 'Raleway', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 100;
-    font-style: italic;
 }
 
 a:hover{
 	background-color: grey;
 	color: white;
-	border-radius: 80%;
+	border: 2px solid grey;
+	border-radius: 50%;
 }
 
 .propic {
@@ -38,13 +39,43 @@ a:hover{
     border-radius: 50%;
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9; 
+}
+
+.licon {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+}
+
+.liconcontainer{
+	margin-left: 300px;
 }
 
 .propiccontainer{
 	padding-right: 100px;
 }
 
+.header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
+}
+.header {
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+}
+.content {
+    width:960px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 2000px;
+    margin: 70px auto;
+}
+
 .scrollcontainer{
-	
+
 }
