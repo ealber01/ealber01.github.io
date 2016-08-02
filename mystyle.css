@@ -1,8 +1,45 @@
 body {
-    background-color: ##eddede;
+    background-color: #eddede;
 }
 
 h1 {
-    color: navy;
-    margin-left: 20px;
+    color: white;
+    margin-left: 100px;
+    font-family: 'Candal', sans-serif;
+    font-size: 70px;
+}
+
+h2 {
+    color: white;
+    margin-left: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+a {
+	line-height: 50px;
+    color: white;
+    margin-left: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+a:hover{
+	background-color: grey;
+	color: white;
+}
+
+.propic {
+	align: middle;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.propiccontainer{
+	padding-right: 100px;
 }
