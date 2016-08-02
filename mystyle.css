@@ -58,6 +58,10 @@ li{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 }
+ul:hover{
+    font-weight: 600;
+    font-size: 35px;
+}
 
 
 .licon:hover{
@@ -75,6 +79,29 @@ li{
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     font-weight: 100;
+}
+
+.res1{
+    color:white;
+}
+
+.res1:hover{
+    background-color: grey;
+    color: white;
+}
+
+.res{
+    color: white;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    padding-right: 100px;
+}
+
+
+.res:hover{
+    background-color: grey;
+    color: white;
 }
 
 .links:hover{
