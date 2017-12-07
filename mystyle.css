@@ -1,7 +1,8 @@
 body {
 	background-color: #ccbebe;
 	/* Margin bottom by footer height */
-	padding-bottom: 105px;
+    padding-bottom: 105px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .my_header {
