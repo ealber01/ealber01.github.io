@@ -20,7 +20,7 @@ a:hover{
 
 .my_banner {
     height: 400px;
-    background: url('./mountains.jpg');
+    background: url("./mountains.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -63,6 +63,13 @@ h4{
     font-size: 20px;
     font-weight: 400;
     word-spacing: 5px;
+}
+
+.my_portfolio{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 
