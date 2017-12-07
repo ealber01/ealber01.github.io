@@ -4,7 +4,14 @@ body {
 	padding-bottom: 105px;
 }
 
-h1 {
+.my_header {
+    margin-top: 50px;
+}
+
+.my_banner {
+    height: 350px;
+}
+/* h1 {
     color: 4E4446;
     margin-left: 100px;
     font-family: 'Raleway', sans-serif;
@@ -140,4 +147,4 @@ ul:hover{
 
 #footer {
 	height: 80px;
-}
+} */
