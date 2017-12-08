@@ -23,6 +23,7 @@ a:hover{
     background-image: url("mountains.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: contain;
 }
 h2 {
     color: #e9edef;
