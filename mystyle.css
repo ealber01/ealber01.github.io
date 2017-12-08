@@ -9,7 +9,8 @@ a {
 }
 
 a:hover{
-    color: #797a7a;
+    color: grey;
+    opacity: .6;
 }
 
 .my_header {
@@ -19,11 +20,24 @@ a:hover{
 }
 
 .my_banner {
-    height: 400px;
+    height: 350px;
     background-image: url("mountains.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-size: contain;
+}
+#home1 {
+    height:auto;
+    margin:30px;
+    width:auto;
+}
+
+.textbox{
+    border: 1px solid #E6EBEF;
+}
+#intro {
+    height: auto;
+    background: whitesmoke;
+    padding: 30px;
 }
 h2 {
     color: #e9edef;
@@ -57,6 +71,20 @@ h1 {
     height: 650px;
     background-color: whitesmoke;
 }
+
+.pic_description{
+    text-align:center;
+    font-family: 'Playfair Display', serif;    
+}
+
+.portfolio{
+    align-items: center;
+}
+.portfolio_item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 h4{
 	color: #000000;
     margin-left: 20px;
@@ -70,6 +98,36 @@ h4{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+}
+
+p.normal{
+    text-align: center;
+}
+
+p.h1{
+    color:#fdbc39;
+    font-family: 'Lato', sans-serif; 
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+p.i2{
+    font-family: 'Lato', sans-serif; 
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color:rgba(112,112,112,.5);
+}
+p.i1{
+    font-family: 'Lato', sans-serif; 
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.rounded-circle {
+    border-radius: 50%!important; 
 }
 
 .my_project{
@@ -130,6 +188,7 @@ h6{
 .center{
     align-items: center;
 }
+
 /* h1 {
     color: 4E4446;
     margin-left: 100px;
