@@ -126,6 +126,9 @@ h6{
     vertical-align: center;
 }
 
+.center{
+    align-items: center;
+}
 /* h1 {
     color: 4E4446;
     margin-left: 100px;
