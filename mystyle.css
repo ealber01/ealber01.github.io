@@ -20,7 +20,7 @@ a:hover{
 
 .my_banner {
     height: 400px;
-    background-image: url("./mountains.jpg");
+    background-image: url("mountains.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
