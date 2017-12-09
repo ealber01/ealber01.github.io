@@ -63,20 +63,6 @@ h1 {
     text-align: center;
 }
 
-.my_skills {
-    height: 380px;
-    background-color: whitesmoke;
-}
-
-.my_experience{
-    height: 900px;
-}
-
-.my_leadership {
-    height: 650px;
-    background-color: whitesmoke;
-}
-
 .pic_description{
     text-align:center;
     font-family: 'Playfair Display', serif;    
@@ -144,10 +130,12 @@ p.i1{
 h5{
 	color: black;
     margin-left: 20px;
+    margin-right: 20px;
     font-size: 20px;
     font-weight: 100;
     text-align: left;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .sect1{
@@ -182,7 +170,7 @@ h6{
     padding-bottom: 20px;
 }
 
-.transit4{
+.sect4{
     height: auto;
     background-color: white;
     padding-top: 20px;
