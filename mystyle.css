@@ -26,7 +26,7 @@ a:hover{
 
 .my_banner {
     height: 350px;
-    background-image: url(./mountains.JPG);
+    background-image: url(./gallery/mountains.JPG);
     background-repeat: no-repeat;
     background-size: 100%;
 }
