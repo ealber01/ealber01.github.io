@@ -163,6 +163,16 @@ h6{
     font-family: 'Playfair Display', serif;
     padding-bottom: 10px;
 }
+
+h7{
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 10px;
+}
 .sect3{
     height: auto;
     padding-top: 20px;
@@ -190,6 +200,27 @@ h6{
     padding-left: 20px;
     padding-right: 20px;
     vertical-align: center;
+}
+
+.textbox{
+    background-color: rgba(211, 211, 211, 0.671);
+    width: 300px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text over img*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* h1 {
