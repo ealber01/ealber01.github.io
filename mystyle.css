@@ -149,6 +149,17 @@ h5{
     padding-top: 10px;
 }
 
+h5.me2pers{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 .sect1{
     height: auto;
     padding-top: 20px;
